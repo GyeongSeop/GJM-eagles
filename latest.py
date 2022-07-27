@@ -1,0 +1,2 @@
+def latest():
+    pass
