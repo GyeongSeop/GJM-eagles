@@ -11,10 +11,12 @@ def main():
     for line in rdr:
         csv_list.append(line)
 
-    l1, l2 = R.reliability(csv_list)
+    l1, l2, l3 = R.reliability(csv_list)
     average = R.score_correction(l2)
+    L.latest(l3)
     print(l1)
     print(l2)
+    print(l3)
     print(average)
     f.close()
 
