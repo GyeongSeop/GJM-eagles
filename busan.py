@@ -152,5 +152,5 @@ if __name__ == "__main__":
     # 파싱된 데이터를 csv로 저장합니다
     make_csv(name, rating, review_count, address, category, rv)
 
-    # 크롬창을 종료합니다
+    # 크롬창을 종료합니다 
     driver.quit()
