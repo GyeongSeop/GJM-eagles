@@ -1,5 +1,4 @@
-def latest():
-    passimport copy
+import copy
 from datetime import datetime
 
 def latest(day_list): #최신 리뷰가 작성된 지 1개월이 지난 경우 작업
